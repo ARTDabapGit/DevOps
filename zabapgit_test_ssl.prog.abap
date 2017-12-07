@@ -54,7 +54,7 @@ FORM run.
       IMPORTING
         code = lv_code ).
   IF lv_code = 200.
-    WRITE: / 'Success, it works'.
+    WRITE: / 'Success, SSL works'.
   ELSE.
     WRITE: / 'Error', lv_code.
   ENDIF.
