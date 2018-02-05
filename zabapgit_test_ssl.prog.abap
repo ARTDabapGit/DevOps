@@ -1,5 +1,7 @@
 REPORT zabapgit_test_ssl.
 
+
+
 * See https://github.com/larshp/abapGit/
 
 PARAMETERS: p_url    TYPE swc_value DEFAULT 'https://github.com',
